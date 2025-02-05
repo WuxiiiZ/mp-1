@@ -57,7 +57,7 @@ nav ul{
 
 nav li{
     width:100%;
-    display: block; <!-- remove list dot -->
+    display: block; /** remove list dot **/
     margin:0;
     padding: 2vh;
     height:15%;
