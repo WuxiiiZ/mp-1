@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Resume</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="/calculation.js"></script>
+</head>
+<body>
+<header>
+    <h1>Wuxi(Alice) Zhang</h1>
+    <p>This is my online resume.</p>
+</header>
+<div id="container">
+    <nav>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="education.html">education</a></li>
+            <li><a href="research.html">research</a></li>
+            <li><a href="employment.html">employment</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="skills.html">skills</a></li>
+        </ul>
+    </nav>
+
+    <main id="projects">
+        <div>
+            <div id="title"><b>Projects</b></div>
+            <p>
+                <span class="bold">Database Design for an Online Clothing Recommendation Platform</span>
+                <span class="bold right-fix">Jun 2023 - Aug 2023</span>
+            </p>
+            <p>
+                <ul>
+                    </br>
+                    <li>Use MYSQL to design and create a database to store skirt information.</li>
+                    <li>Ensure efficient querying in the database through meticulous data structure design, optimizing the shopping
+                        experience for users.</li>
+                </ul>
+            </p>
+        </div>
+        <div id="calculator">
+            <label for="first-number"><strong>First number:</strong></label>
+            <input type="text" id="first-number">
+            <label for="second-number"><strong>Second number:</strong></label>
+            <input type="text" id="second-number">
+            <button onclick="addiction()">+</button>
+            <button onclick="subtraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>
+            <button onclick="power()">^</button>
+            </br>
+            <button onclick="clearAll()">clear</button>
+            <p id="result"></p>
+        </div>
+    </main>
+
+</div>
+
+<footer>
+    <p>All Rights Reserved by Wuxi Zhang <a href="">Credits</a>&copy;</p>
+</footer>
+
+</body>
+</html>
